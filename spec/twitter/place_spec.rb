@@ -166,5 +166,10 @@ describe Twitter::Place do
       place = described_class.new(woeid: "247f43d441defc03")
       expect(place.uri?).to be false
     end
+
+    it "returns false when the url is not set" do
+      place = described_class.new(woeid: "247f43d441defc03")
+      expect(place.uri?).to be false
+    end
   end
 end
