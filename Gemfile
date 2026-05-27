@@ -11,7 +11,7 @@ gem "rubocop-rspec", ">= 2.24"
 gem "simplecov", ">= 0.22"
 gem "timecop", ">= 0.9.8"
 gem "webmock", ">= 3.19.1"
-gem "yard", ">= 0.9.34"
+gem "yard", ">= 0.9.42"
 gem "yardstick", ">= 0.9.9"
 
 gemspec
